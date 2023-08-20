@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.BarDiscount {
+    width: auto;
+    height: 38px;
+    flex-shrink: 0;
+    background: #1CD1B0;
+}
+
+.BarDiscount p {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+header {
+    width: auto;
+    height: 101px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    background: #00669F;
+    box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 26px;
+}
+
+section {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+a {
+    background-color: #00669f;
+    color: #f3f3f3;
+    margin-top: 25px;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+
+}
+
+h2 {
+    margin-top: 70px;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p {
+    color: #333;
+    margin: 5px 15px;
+    text-align: start;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top{
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+}
+
+i{
+    color: #cc2424;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-size: 1.5em;
+}
+
+.card {
+    flex-shrink: 0;
+    width: 300px;
+    height: 529px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+    margin-bottom: 100px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.profile {
+    border-radius: 50%;
+    position: absolute;
+    margin: -57px;
+    width: 120px;
+    height: 118px;
+    box-shadow: -3px 14px 7px -9px rgba(148, 148, 148, 1);
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+footer {
+    width: auto;
+    background: #00669F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+h3{
+    color: #FFF9F9;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px;
+    text-align: start;
+}
